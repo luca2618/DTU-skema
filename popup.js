@@ -5,13 +5,13 @@ debugger;
 
 //console.log(course_spots)
 //doesent look nice but whatever
-/*
+
 all_spots = ["1A","2A","3A","4A","5A","1B","2B","3B","4B","5B","7"]
 for (let i = 0; i < all_spots.length; i++) {
     element = document.getElementById(all_spots[i])
     element.textContent = "";
 }
-*/
+
 
 chrome.storage.local.get(['course_names']).then(
     function(value) {
