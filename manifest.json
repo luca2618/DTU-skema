@@ -1,8 +1,11 @@
 {
-    "name": "Getting Started Example",
-    "description": "Build an Extension!",
+    "name": "DTU skema",
+    "description": "Gå ind på https://studieplan.dtu.dk/ og få automatisk generet dit skema",
     "version": "1.0",
     "manifest_version": 3,
+    "icons": {
+        "32": "icon32.png"
+    },
     "content_scripts": [
 	    {
 	      "matches": ["https://studieplan.dtu.dk//*"],
